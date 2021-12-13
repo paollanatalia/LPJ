@@ -36,6 +36,7 @@
                 <h1 class="mb-1">LPJ</h1>
                 <h3 class="mb-5"><em>A Free Bootstrap Theme by Start Bootstrap</em></h3>
                 <a class="btn btn-primary btn-xl" href="/login">Login</a>
+                <a class="btn btn-primary btn-xl" href="/register">Registre-se</a>
             </div>
         </header>
         <!-- About-->
