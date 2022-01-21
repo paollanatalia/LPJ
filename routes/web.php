@@ -15,9 +15,15 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', function () {
-    return view('initial-page');
+    return view('index');
 });
 
 Route::get('/dashboard', [UserController::class, 'dashboard'])->middleware(['auth'])->name('dashboard');
+Route::get('/dashboard/game-01', function(){
+    return view('game-01');
+})->middleware(['auth'])->name('game-01');
+Route::get('/dashboard/game-02', function(){
+    return view('game-02');
+})->middleware(['auth'])->name('game-02');
 
 require __DIR__.'/auth.php';
