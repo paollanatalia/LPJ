@@ -19,9 +19,8 @@ class DatabaseSeeder extends Seeder
         $this->call(LaratrustSeeder::class);
         DB::table('users')->insert([
             'name' => 'admin',
-            'email' => 'medicinecontrolsuporte@gmail.com',
-            'password' => Hash::make('12345678'),
-            'description' => 'Administrador do sistema',
+            'email' => 'admin@admin.com',
+            'password' => Hash::make('admin1234'),
         ]);
 
         $user = User::all()->where('name', 'admin')->first();
