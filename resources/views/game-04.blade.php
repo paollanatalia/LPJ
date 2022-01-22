@@ -18,13 +18,10 @@
         <link rel="stylesheet" href="/css/custom.css">
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body>
         
-
-        <div class="content d-flex justify-content-center align-items-center">
-            <div>
-                <script src="https://cdn.htmlgames.com/embed.js?game=Ludo&amp;bgcolor=white"></script>
-            </div>
+        <div class="content">
+            <script src="https://cdn.htmlgames.com/embed.js?game=MonkeyIsland&amp;bgcolor=white"></script>
         </div>
 
         <!-- Bootstrap core JS-->
